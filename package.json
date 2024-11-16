@@ -1,0 +1,36 @@
+{
+    "name": "medical-appointment-api",
+    "version": "1.0.0",
+    "description": "API REST para gestión de citas médicas",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.1.4",
+    "express": "^4.16.1",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.3.0"
+    },
+    "devDependencies": {
+    "nodemon": "^2.0.22"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "keywords": [
+      "api",
+      "medical",
+      "appointments",
+      "nodejs",
+      "express",
+      "postgresql"
+    ],
+    "author": "Sebastian Garavito Gallo",
+    "license": "ISC"
+  }
+  
